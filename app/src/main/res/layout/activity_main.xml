@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/ivBgImage"
+        android:layout_width="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgroundhdpi"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/ibStartGame"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/play"
+        android:onClick="ibOyunaBasla"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ibSettings"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="160dp"
+        android:text="@string/start_game"
+        android:textColor="#22B14C"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ibStartGame"
+        app:layout_constraintStart_toStartOf="@+id/ibStartGame"
+        app:layout_constraintTop_toBottomOf="@+id/ibStartGame" />
+
+    <ImageButton
+        android:id="@+id/ibSettings"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/settings"
+        android:onClick="ibAyarlar"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/ivBgImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="160dp"
+        android:text="@string/settings"
+        android:textColor="#FFF200"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ivBgImage"
+        app:layout_constraintEnd_toEndOf="@+id/ibSettings"
+        app:layout_constraintStart_toStartOf="@+id/ibSettings"
+        app:layout_constraintTop_toBottomOf="@+id/ibSettings" />
+
+    <ImageButton
+        android:id="@+id/ibExit"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/exit"
+        android:onClick="ibCikis"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ivBgImage"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toEndOf="@+id/ibSettings"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="160dp"
+        android:text="@string/exit"
+        android:textColor="#FF5A54"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ibExit"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/ibExit"
+        app:layout_constraintTop_toBottomOf="@+id/ibExit" />
+
+    <ImageButton
+        android:id="@+id/ibSound"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="690dp"
+        android:layout_marginBottom="360dp"
+        android:background="@drawable/speakeron"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

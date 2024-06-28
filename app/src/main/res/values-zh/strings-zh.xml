@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">动物声音</string>
+    <string name="change_language">更改语言</string>
+    <string name="general_volume">总体音量</string>
+    <string name="animal_volume">动物音量</string>
+    <string name="select_language">选择语言</string>
+    <string name="app_version">应用版本</string>
+    <string name="version">版本 1.0</string>
+    <string name="app_developer">应用开发者</string>
+    <string name="developer_name">阿赫梅特·托帕尔</string>
+    <string name="start_game">开始</string>
+    <string name="settings">设置</string>
+    <string name="exit">退出</string>
+    <string name="bear">熊</string>
+    <string name="bee">蜜蜂</string>
+    <string name="bird">鸟</string>
+    <string name="cat">猫</string>
+    <string name="chicken">鸡</string>
+    <string name="cockerel">公鸡</string>
+    <string name="cow">牛</string>
+    <string name="crow">乌鸦</string>
+    <string name="dog">狗</string>
+    <string name="donkey">驴</string>
+    <string name="duck">鸭</string>
+    <string name="elephant">大象</string>
+    <string name="frog">青蛙</string>
+    <string name="goat">山羊</string>
+    <string name="horse">马</string>
+    <string name="lion">狮子</string>
+    <string name="monkey">猴子</string>
+    <string name="penguin">企鹅</string>
+    <string name="pig">猪</string>
+    <string name="snake">蛇</string>
+    <string name="sheep">羊</string>
+    <string name="wolf">狼</string>
+</resources>

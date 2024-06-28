@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hayvan Sesleri</string>
+    <string name="change_language">Dili Değiştir</string>
+    <string name="general_volume">Genel Sesler</string>
+    <string name="animal_volume">Hayvan Sesleri</string>
+    <string name="select_language">Dil Seçiniz</string>
+    <string name="app_version">Uygulama Versiyonu</string>
+    <string name="version">Versiyon 1.0</string>
+    <string name="app_developer">Uygulama Yapımcısı</string>
+    <string name="developer_name">Ahmet Topal</string>
+    <string name="start_game">Başla</string>
+    <string name="settings">Ayarlar</string>
+    <string name="exit">Çıkış</string>
+    <string name="bear">Ayı</string>
+    <string name="bee">Arı</string>
+    <string name="bird">Kuş</string>
+    <string name="cat">Kedi</string>
+    <string name="chicken">Tavuk</string>
+    <string name="cockerel">Horoz</string>
+    <string name="cow">İnek</string>
+    <string name="crow">Karga</string>
+    <string name="dog">Köpek</string>
+    <string name="donkey">Eşek</string>
+    <string name="duck">Ördek</string>
+    <string name="elephant">Fil</string>
+    <string name="frog">Kurbağa</string>
+    <string name="goat">Keçi</string>
+    <string name="horse">At</string>
+    <string name="lion">Aslan</string>
+    <string name="monkey">Maymun</string>
+    <string name="penguin">Penguen</string>
+    <string name="pig">Domuz</string>
+    <string name="snake">Yılan</string>
+    <string name="sheep">Koyun</string>
+    <string name="wolf">Kurt</string>
+</resources>
